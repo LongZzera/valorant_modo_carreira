@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simulador de Pro Player</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Simulador de Pro Player - Valorant</h1>
+  </header>
+
+  <main>
+    <section id="status">
+      <h2>Status do Jogador</h2>
+      <ul>
+        <li>Popularidade: <span id="popularity">50</span></li>
+        <li>Habilidade: <span id="skill">50</span></li>
+        <li>Dinheiro: $<span id="money">500</span></li>
+        <li>Estresse: <span id="stress">0</span>%</li>
+        <li>Pontos: <span id="points">0</span></li>
+      </ul>
+    </section>
+
+    <section id="actions">
+      <h2>Ações</h2>
+      <!-- Configurações dos botões corrigidas -->
+      <button id="train-btn">Treinar</button>
+      <button id="play-btn">Jogar Partida</button>
+      <button id="rest-btn">Descansar</button>
+      <button id="sponsor-btn">Buscar Patrocínio</button>
+      <button id="tournament-btn">Entrar em Torneio</button>
+      <button id="social-btn">Gerenciar Redes Sociais</button>
+    </section>
+
+    <section id="feedback">
+      <h3 id="feedback-text"></h3>
+    </section>
+
+    <section id="ranking">
+      <h2>Ranking de Jogadores</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Posição</th>
+            <th>Jogador</th>
+            <th>Pontos</th>
+          </tr>
+        </thead>
+        <tbody id="ranking-table"></tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    <p>Simulador criado com HTML, CSS e JavaScript.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
